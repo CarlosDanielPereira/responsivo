@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#imgprincipal{
+ width: 100%;
+}
+
+#titulo{
+    text-align: center;
+    color: aqua;
+}
+
+#paragrafoconteudo{
+    text-align: justify;
+    font-size: 12px;
+}
+
+#botao{
+    background-color: aqua;
+    padding: 12px;
+    font-size: 18px;
+    width: 160px;
+    
+}
+
+#conteudotexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width: 600px){
+    #titulo{
+        padding: 12px;
+        color: red;
+       font-size: 58px;
+    }
+}
